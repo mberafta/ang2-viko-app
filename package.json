@@ -1,0 +1,40 @@
+{
+  "name": "mb-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typing install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.0"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/compiler": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "@angular/forms": "^2.4.9",
+    "@angular/http": "^2.4.9",
+    "@angular/platform-browser": "^2.4.9",
+    "@angular/platform-browser-dynamic": "^2.4.9",
+    "@angular/router": "^3.4.9",
+    "@angular/upgrade": "^2.4.9",
+    "angular2-uuid": "^1.1.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.2.0",
+    "serve-favicon": "^2.4.1",
+    "systemjs": "^0.20.9",
+    "zone.js": "^0.7.7"
+  }
+}
